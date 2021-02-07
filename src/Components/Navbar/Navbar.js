@@ -7,7 +7,7 @@ const Navbar = (props) => {
         <div className="navbar-fixed">
             <nav className="teal">
                 <div className="nav-wrapper">
-                    <Link to="/" className="brand-logo center">
+                    <Link to="/work-time-slot" className="brand-logo center">
                         TimeSlot
                     </Link>
                 </div>

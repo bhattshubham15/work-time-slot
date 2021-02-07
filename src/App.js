@@ -14,7 +14,7 @@ function App() {
       <div>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={dashboard} />
+          <Route exact path="/work-time-slot" component={dashboard} />
           <Route path="/:slotId" component={AddForm} />
         </Switch>
       </div>

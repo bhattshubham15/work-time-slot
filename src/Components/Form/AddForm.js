@@ -119,7 +119,7 @@ class AddForm extends Component {
                 lastName: '',
                 phoneNumber: '',
             });
-            this.props.history.push("/");
+            this.props.history.push("/work-time-slot");
         } else {
             console.error('error');
         }
@@ -127,7 +127,7 @@ class AddForm extends Component {
 
     redirectHome = (e) => {
         e.preventDefault();
-        this.props.history.push("/");
+        this.props.history.push("/work-time-slot");
     }
 
     render() {
